@@ -1,3 +1,4 @@
+the name of this app is docs. show's some basic features using react.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
