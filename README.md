@@ -1,4 +1,6 @@
-the name of this app is docs. show's some basic features using react with typescript & FramerMotion
+The name of this app is docs. show's some basic features e.g. Battery%, Memory etc with a nice looking UI.
+
+I am using react with typescript & FramerMotion.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
