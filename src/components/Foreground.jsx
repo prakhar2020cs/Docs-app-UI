@@ -7,19 +7,19 @@ function Foreground() {
 
     const data=[
         {
-            desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam?",
+            desc:"This ia a plain card, can be a simple text file or note.",
             filesize: ".9mb",
             close:true,
             tag:{isOpen:false,tagTitle:"Download Now",tagColor:"green"}
         },
         {
-            desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam?",
+            desc:"This is a card with name of the file. It has a download button and information of storage used by it.",
             filesize: ".9mb",
             close:false,
             tag:{isOpen:true,tagTitle:"Download!!",tagColor:"blue"}
         },
         {
-            desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam?",
+            desc:"This is a card with name of the file. Color of the download button is changed. Color can represent the type of file.",
             filesize: ".5mb",
             close:true,
             tag:{isOpen:true,tagTitle:"Download Now",tagColor:"green"}
