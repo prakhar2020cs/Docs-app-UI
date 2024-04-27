@@ -4,9 +4,9 @@ import { FaDownload } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 import { motion } from "framer-motion"
 
-function Card({data}) {
+function Card({data, reference}) {
   return (
-    <div className='relative flex-shrink-0 w-60 h-72 rounded-[40px] bg-zinc-900/60 text-white px-8 py-10 overflow-hidden'>
+    <motion.div drag dragConstraints={reference} className='relative flex-shrink-0 w-60 h-72 rounded-[40px] bg-zinc-900/60 text-white px-8 py-10 overflow-hidden'>
         <FaFile/> 
         <p className='text-sm leading-tight p-3 mt-5 font-semibold'>{data.desc}</p>
          <div className='footer absolute bottom-0 w-full left-0'>
@@ -26,7 +26,7 @@ function Card({data}) {
             }
            
             </div>
-          </div> 
+          </motion.div> 
       
     
   )
